@@ -1,0 +1,28 @@
+{
+  "name": "sistema-turnos-reservas-routers-controllers",
+  "version": "1.0.0",
+  "description": "Sistema Backend de Turnos y Reservas: API REST con Express organizada en routers, controllers y managers con persistencia en archivos JSON",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "api-rest",
+    "filesystem",
+    "controllers",
+    "turnos",
+    "reservas"
+  ],
+  "author": "Sebastián Muñoz",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
